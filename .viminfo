@@ -14,8 +14,9 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
+::
 :qall
 :1
 :q!
@@ -55,21 +56,29 @@ $
 	s
 
 # File marks:
-'0  1  0  ~/README.md
-'1  10  3  ~/index.js
-'2  8  45  ~/page0.ejs
-'3  11  0  ~/index.js
-'4  7  14  ~/index.js
-'5  3  19  ~/index.js
-'6  1  31  ~/index.js
-'7  25  0  ~/package.json
-'8  25  0  ~/node-js-playlist/controllers/todoController.js
-'9  1  0  ~/node-js-playlist/public/assets/todo-list.js
+'0  10  17  ~/index.js
+'1  5  36  ~/views/page1.ejs
+'2  1  0  ~/css/mystyle.css
+'3  1  0  ~/index.js
+'4  1  0  ~/views/page1.ejs
+'5  1  0  ~/views/page0.ejs
+'6  8  0  ~/views
+'7  3  0  ~/views/mystyle.css
+'8  6  0  ~/views/page0.ejs
+'9  1  0  ~/README.md
 
 # Jumplist (newest first):
--'  1  0  ~/README.md
--'  10  3  ~/index.js
+-'  10  17  ~/index.js
 -'  1  0  ~/index.js
+-'  5  36  ~/views/page1.ejs
+-'  1  0  ~/views/page1.ejs
+-'  1  0  ~/css/mystyle.css
+-'  1  0  ~/views/page0.ejs
+-'  8  0  ~/views
+-'  3  0  ~/views/mystyle.css
+-'  1  0  ~/views/mystyle.css
+-'  6  0  ~/views/page0.ejs
+-'  1  0  ~/README.md
 -'  8  45  ~/page0.ejs
 -'  1  0  ~/page0.ejs
 -'  11  0  ~/index.js
@@ -107,7 +116,6 @@ $
 -'  10  8  ~/views/profile.ejs
 -'  1  0  ~/views/profile.ejs
 -'  11  1  ~/views/profile.ejs
--'  8  0  ~/views
 -'  22  54  ~/hello.js
 -'  33  0  ~/hello.js
 -'  31  0  ~/hello.js
@@ -155,26 +163,15 @@ $
 -'  10  8  ~/views/profile.ejs
 -'  1  0  ~/views/profile.ejs
 -'  11  1  ~/views/profile.ejs
--'  8  0  ~/views
 -'  14  24  ~/views/profile.ejs
 -'  1  0  ~/index.html
--'  8  41  ~/index.html
--'  11  6  ~/index.html
--'  1  0  ~/ht
--'  40  0  /etc/nginx/nginx.conf
--'  1  0  /etc/nginx/nginx.conf
--'  44  0  /etc/nginx/sites-available/default
--'  1  0  /etc/nginx/sites-available/default
 
 # History of marks within files (newest to oldest):
 
-> ~/README.md
-	"	1	0
-
 > ~/index.js
-	"	10	3
-	^	10	4
-	.	10	3
+	"	10	17
+	^	10	18
+	.	10	17
 	+	1	32
 	+	23	0
 	+	21	0
@@ -187,7 +184,25 @@ $
 	+	14	0
 	+	11	0
 	+	8	28
-	+	10	3
+	+	10	17
+
+> ~/views/page1.ejs
+	"	5	36
+	^	5	37
+	.	5	36
+	+	5	36
+
+> ~/css/mystyle.css
+	"	1	0
+
+> ~/views/page0.ejs
+	"	1	0
+
+> ~/views/mystyle.css
+	"	3	0
+
+> ~/README.md
+	"	1	0
 
 > ~/page0.ejs
 	"	8	45
