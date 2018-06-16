@@ -42,7 +42,7 @@ app.post('/upload' , function(req,res){
 			});
 		} else{
 			console.log(req.file);
-			res.send('TEST!!');
+			//res.send('TEST!!');
 		}
 
 	});
