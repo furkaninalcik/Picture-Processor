@@ -41,8 +41,10 @@ app.post('/upload' , function(req,res){
 				msg:err
 			});
 		} else{
-			console.log(req.file);
-			//res.send('TEST!!');
+			res.render('page0' , {
+				msg: 'File Uploaded!',
+				file: 'upload/${req.file.filename}'
+			});
 		}
 
 	});
