@@ -1,0 +1,22 @@
+TypeError: req.render is not a function
+    at /home/furkan/index.js:10:6
+    at Layer.handle [as handle_request] (/home/furkan/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/furkan/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/furkan/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/furkan/node_modules/express/lib/router/layer.js:95:5)
+    at /home/furkan/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/furkan/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/furkan/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/home/furkan/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/home/furkan/node_modules/express/lib/router/layer.js:95:5)
+Error: Failed to lookup view "page0" in views directory "/home/furkan/views"
+    at EventEmitter.render (/home/furkan/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/furkan/node_modules/express/lib/response.js:1008:7)
+    at /home/furkan/index.js:10:6
+    at Layer.handle [as handle_request] (/home/furkan/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/furkan/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/furkan/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/furkan/node_modules/express/lib/router/layer.js:95:5)
+    at /home/furkan/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/furkan/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/furkan/node_modules/express/lib/router/index.js:275:10)

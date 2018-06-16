@@ -1,0 +1,27 @@
+{
+  "name": "furkan",
+  "version": "1.0.0",
+  "description": "a simple app for picture processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkaninalcik/Picture-Processor.git"
+  },
+  "keywords": [
+    "image_proessing"
+  ],
+  "author": "furkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furkaninalcik/Picture-Processor/issues"
+  },
+  "homepage": "https://github.com/furkaninalcik/Picture-Processor#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
