@@ -36,7 +36,20 @@
 </style>
 </head>
 <body>
-  <input type='file' onchange="readURL(this);" />
+
+
+	<form method="post" enctype="multipart/form-data">
+		<div>
+		   <label for="file">Choose file to upload</label>
+		   <input type="file" onchange="readURL(this);" id="file" name="file" multiple>
+		</div>
+		<div>
+		   <button>Submit</button>
+		</div>
+	</form>
+
     <img id="img0" src="#" alt="your image" style="border-radius: 8px;" />
+
+
 </body>
 </html>
