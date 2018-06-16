@@ -9,6 +9,14 @@ app.get('/',function(req, res){
 
 	res.render('page0');
 	
+});
+
+app.post('/' , function(req,res){
+
+
+	console.log('IMAGE POSTED!');
+
+
 
 });
 
