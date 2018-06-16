@@ -7,7 +7,7 @@ app.set('view engine','ejs');
 
 app.get('/',function(req, res){
 
-	res.render('page0');
+	res.render('page1');
 	
 
 });
