@@ -13,7 +13,7 @@
             var reader = new FileReader();
 
             reader.onload = function (e) {
-                $('#blah')
+                $('#img0')
                     .attr('src', e.target.result)
                     .width(150)
                     .height(200);
@@ -37,6 +37,6 @@
 </head>
 <body>
   <input type='file' onchange="readURL(this);" />
-    <img id="img0" src="#" alt="your image" />
+    <img id="img0" src="#" alt="your image" style="border-radius: 8px;" />
 </body>
 </html>
