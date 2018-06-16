@@ -43,7 +43,7 @@ app.post('/upload' , function(req,res){
 		} else{
 			res.render('page0' , {
 				msg: 'File Uploaded!',
-				file: 'upload/${req.file.filename}'
+				file: ´uploads/${req.file.filename}´
 			});
 		}
 
