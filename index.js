@@ -22,8 +22,8 @@ app.get('/',function(req, res){
 
 app.post('/' , function(req,res){
 
-
-	console.log('IMAGE POSTED!');
+	res.send('TEST');
+	//console.log('IMAGE POSTED!');
 
 
 
