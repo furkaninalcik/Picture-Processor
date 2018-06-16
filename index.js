@@ -10,8 +10,6 @@ app.get('/',function(req, res){
 	res.render('page0');
 	
 
-
-
 });
 
 
